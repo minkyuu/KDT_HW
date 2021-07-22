@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding : 0;
+}
+.header {
+  background: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.container {
+  width: 980px;
+  margin: auto;
+}
+
+.container-left {
+  float: left;
+  height: 40px;
+  padding: 20px 10px;
+}
+
+.logo {
+  float: left;
+  margin-top: 2px;
+  margin-right: 17px;
+  height: 40px;
+}
+
+.logo img {
+  display: block;
+}
+
+.menu {
+  float: left;
+}
+
+.menu-item {
+  float: left;
+  padding: 8px 10px;
+}
+
+.container-right {
+  float: right;
+  height: 40px;
+  padding: 20px 10px;
+}
+
+.login {
+  float:left;  
+}
+
+form {
+  float: left;
+  padding: 8px 10px;
+}
+
+.sign-in {
+  float: left;
+  padding: 8px 10px;
+}
+
+.sign-up {
+  float: left;
+  padding: 8px 10px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
